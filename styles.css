@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .slide {
     width: 100vw;
     height: 100vh;
@@ -19,7 +23,6 @@ body {
 
 .one {
     background: url("/Assets/Foreground.png");
-
     background-size: auto 100vh;
     background-repeat: repeat-x;
     width: 400vw;
@@ -42,4 +45,75 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    display: absolute;
+    margin-left: 500px;
+    margin-top: 500px;
+}
+
+.container1 img {
+    position: absolute;
+    z-index: -1;
+    margin-left: 1610px;
+    margin-top: -32vh;
+}
+
+.container2 img {
+    position: absolute;
+    z-index: -1;
+    margin-left: 2200px;
+    margin-top: -32vh;
+}
+
+/* btns  */
+
+
+.btn1 a {
+    background-color: rgba(49, 47, 47, 0.534);
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.315);
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 1690px;
+}
+
+.btn1 a:hover {
+    background-color: #5cdd42c4;
+}
+
+.btn1 a:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+.btn2 a {
+    background-color: rgba(49, 47, 47, 0.534);
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.315);
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 2290px;
+
+}
+
+.btn2 a:hover {
+    background-color: #5cdd42c4;
+}
+
+.btn2 a:active {
+    box-shadow: none;
+    top: 5px;
 }
